@@ -1,2 +1,4 @@
-SECRET_KEY = 'super_secret_flask_key'  # This is for Flask session
-ENCRYPTION_KEY = b'ThisIsA32ByteAESKeyForEncrypt!!'  # ✅ 32-byte (256-bit) key
+SECRET_KEY = 'your-secret-key-for-session'
+
+# AES key must be exactly 32 bytes for AES-256
+ENCRYPTION_KEY = b'ThisIsA32ByteKeyForAES256Encrypt!!'
